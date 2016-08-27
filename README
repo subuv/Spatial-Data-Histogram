@@ -1,0 +1,28 @@
+******************************************************************************************************************
+* Final Project on Spatial Data Histogram done by
+******************************************************************************************************************
+* 1. Raviteja Yerrapati
+* 2. Sneha Rajan
+* 3. Subramanian Viswanathan
+*
+******************************************************************************************************************
+* FILES:
+******************************************************************************************************************
+README 									- This file
+spatialDataHistogram.c 					- Program that computes the spatial data histogram
+Makefile 								- File that is used to build the .so file to be made into a function in postgresql
+Scripts.sql 							- File that creates the function and the input tables.
+SDH.log 								- Log file that contains the histogram for specific inputs from table.
+CIS6930_Report_ComplexAggregates.docx 	- Report
+*
+******************************************************************************************************************
+*DATABASE RELATIONS:
+******************************************************************************************************************
+SDH 			- Function that computes the histogram created using the file spatialDataHistogram.c
+histogram_input - Table that passes input values number of samples and bucket width to the function SDH
+
+******************************************************************************************************************
+*OUTPUT:
+******************************************************************************************************************
+Sample output file attached. Written to a file SDH.log inside /tmp/
+******************************************************************************************************************
